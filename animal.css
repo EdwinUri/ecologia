@@ -1,0 +1,95 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #45d3d3;
+}
+.header{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+}
+.contenedor .intro p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+.intro img{
+    width: 100%;
+    box-shadow: 10px 9px 10px 0px rgb(14, 13, 13);
+    height: auto;
+}
+.desa .info{
+    text-align: justify;
+    font-size: 20px;
+}
+.desa2{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 30px;
+    box-shadow: 15px 0px 20px 3px black;
+    background: linear-gradient(#178629,#1b6132);
+}
+.condor img{
+    width: 80%;
+    height: auto;
+}
+.condor p{
+    font-size: 13px;
+}
+.condor{
+    border: solid rgb(206, 204, 103);
+    border-width: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(15, 15, 15);
+}
+.osopardo img{
+    width: 80%;
+    height: auto;
+}
+.osopardo p{
+    font-size: 13px;
+}
+.osopardo{
+    border: solid rgb(206, 204, 103);
+    border-width: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(15, 15, 15);
+}
+
+.condor:hover{
+    transform: scale(1.1);
+    width: 80%;
+    justify-items: center;
+    margin: auto;
+}
+.osopardo:hover{
+    transform: scale(1.1);
+    width: 80%;
+    justify-items: center;
+    margin: auto;
+
+}
+.listas ol>li{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.listas{
+    margin-top: 70px;
+}
+.video iframe{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(5, 27, 61);
+}

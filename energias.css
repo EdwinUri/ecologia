@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(4, 134, 54);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.introduccion img{
+    margin-left: 40px;
+}
+.introduccion h1{
+    text-align: center;
+}
+.img-centrada img{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.info-centro{
+    text-align: center;
+}
+.renovable p{
+    text-align: justify;
+}
+.renovable img{
+    width: 70%;
+    text-align: center;
+    height: auto;
+}
+.no-renovable img{
+    width: 70%;
+    text-align: center;
+    height: auto;
+}
+.cambio-cli{
+    text-align: justify;
+}
+.cambio-cli h1{
+    text-align: center;
+}
+.cambio-cli img{
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+}
+.ahorre{
+    text-align: justify;
+}
+.ahorre h1{
+    text-align: center;
+}
+.ahorre img{
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+}
+.n img{
+    width: 90%;
+    height: auto;
+}
+.pros, .contras p{
+    text-align: justify;
+    padding: 0 20px;
+}
+.pros{
+    border: solid rgb(15, 99, 19);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contras{
+    border: solid rgb(92, 6, 6);
+    border-radius: 10px;
+}
+.fin{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.video iframe{
+    width: 95%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(7, 33, 71);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

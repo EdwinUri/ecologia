@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    font-size: 62.5%;
+    --color-red: #ea5353;
+    --color-cyan: #45d3d3;
+    --color-orange: #fcaf4a;
+    --color-blue: #549ef2;
+    --color-very-dark-blue: #4c4e61;
+    --color-grayish-blue: #a3a5ae;
+    --color-very-light-gray: #fafafa;
+
+}
+
+/*---------------------MOBILE VIEW-------------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(50, 122, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+    color: var(--color-very-dark-blue);
+}
+/* ------------------------ Mobile: Header Styles ------------------ */
+
+.header{
+    margin-top: 8.5rem;
+    max-width: 1400px;
+    text-align: center;
+    
+}
+.header_tittle{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 3.5rem;
+    letter-spacing: 0.17px;
+    color:white;
+}
+.header_text{
+    margin-top:1.6rem;
+    font-size:1.9rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    mix-blend-mode: multiply;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 7.8rem;
+}
+.c1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.middle-cards:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.c3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.c4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cards{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 15px 30px -10px rgba(9, 13, 17, 0.5) ;
+    overflow: hidden;
+    max-width: 200px;
+    min-height: 100px;
+    padding: 0 2.8rem 0 2.9rem;
+}
+.cards--one .cards-color{
+    border-top-style:outset;
+    border-width: 10px;
+    border-color: var(--color-orange);
+    border-radius: 15px;
+}
+.cards--two .cards-color{
+    border-top-style:outset;
+    border-width: 10px;
+    border-color: var(--color-blue);
+    border-radius: 15px;
+}
+.cards--three .cards-color{
+    border-top-style:outset;
+    border-width: 10px;
+    border-color: var(--color-red);
+    border-radius: 15px;
+}
+.cards--four .cards-color{
+    border-top-style:outset;
+    border-width: 10px;
+    border-color: yellow;
+    border-radius: 15px;
+}
+.middle-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.cards-title{
+    margin-top: 2.3rem;
+    font-size:2rem ;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.cards-text{
+    mix-blend-mode: normal;
+    opacity: .5;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    max-width: 25.5rem;
+}
+.cards-image {
+    width: 5.7rem;
+    margin-top: 5px;
+    bottom: 2.8rem;
+    right: 2.8rem;
+}
+.footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.footer img{
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+/* ------------------------------ DESKTOP VIEW -------------------------- */
+
+@media only screen and(min-width:750px){
+    body{
+        gap:6.4rem;
+    }
+     /* ------------------------ Desktop: Header Styles ------------------ */
+     .header {
+        margin-top: 8rem;
+        max-width: 54rem;
+    } 
+    
+    .header__title {
+        font-size: 3.6rem;
+        font-weight: 300;
+        line-height: 5.4rem;
+        letter-spacing: 0.25px;
+    }
+
+    /* ------------------------ Desktop: Card Styles ------------------ */
+
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 8rem;
+    }
+    
+    .card {
+        max-width: 35rem;
+        min-height: 25rem;
+        padding: 0 3.2rem 0 3.2rem;
+    }
+    
+    .middle-cards {
+        gap: 3rem;
+    }
+    
+    .card-title {
+        margin-top: 3.2rem;
+    }
+    
+    .card-text {
+        max-width: 28.6rem;
+    }
+    
+    .card-image {
+        width: 6.4rem;
+        position: absolute;
+        bottom: 3.2rem;
+        right: 3.2rem;
+    }
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    background: linear-gradient(45deg,rgb(168, 227, 250), rgb(253, 214, 214));
+    width: 100%;
+    padding: 20px 0 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
